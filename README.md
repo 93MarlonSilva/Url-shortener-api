@@ -1,12 +1,12 @@
-# url shortener dio
+# Url Shortener Dio
 
-Project created with DIO to build a URL Shortener.
+Delivery of the project challenge to build a URL shortener @Dio.
 
-##### You can use the commands below to install the dependencies and launch the app
+##### In the project files directory you can use the commands below to install the dependencies and start the application.
 
 - `npm install`
 - `npm run build`
 - `npm run dev`
 
 #### front end under development
-![capa](../)
+![capa](./src/image/capa.png)
