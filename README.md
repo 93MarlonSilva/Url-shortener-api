@@ -9,4 +9,3 @@ Delivery of the project challenge to build a URL shortener @Dio.
 - `npm run dev`
 
 #### front end under development
-![capa](./src/image/capa.png)
