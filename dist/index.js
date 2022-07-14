@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const URLController_1 = require("./controller/URLController");
 const MongoConnection_1 = require("./database/MongoConnection");
-const api = express_1.default();
+const api = (0, express_1.default)();
 api.use(express_1.default.json());
 const database = new MongoConnection_1.MongoConnection();
 database.connect();

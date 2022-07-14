@@ -14,15 +14,15 @@ const typegoose_1 = require("@hasezoey/typegoose");
 class URL extends typegoose_1.Typegoose {
 }
 __decorate([
-    typegoose_1.prop({ required: true }),
+    (0, typegoose_1.prop)({ required: true }),
     __metadata("design:type", String)
 ], URL.prototype, "hash", void 0);
 __decorate([
-    typegoose_1.prop({ required: true }),
+    (0, typegoose_1.prop)({ required: true }),
     __metadata("design:type", String)
 ], URL.prototype, "originURL", void 0);
 __decorate([
-    typegoose_1.prop({ required: true }),
+    (0, typegoose_1.prop)({ required: true }),
     __metadata("design:type", String)
 ], URL.prototype, "shortURL", void 0);
 exports.URL = URL;
