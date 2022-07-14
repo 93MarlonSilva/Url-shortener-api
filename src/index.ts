@@ -12,4 +12,4 @@ const urlController = new URLController()
 api.post('/shorten', urlController.shorten)
 api.get('/:hash', urlController.redirect)
 
-api.listen(5000, () => console.log('Express listening'))
+api.listen(8080, () => console.log('Express listening'))
