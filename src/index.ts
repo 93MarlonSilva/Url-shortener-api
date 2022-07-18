@@ -5,6 +5,9 @@ import { MongoConnection } from './database/MongoConnection'
 const api = express()
 api.use(express.json())
 
+let cors = require("cors");
+api.use(cors.json())
+
 const database = new MongoConnection()
 database.connect()
 
