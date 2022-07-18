@@ -7,7 +7,7 @@ import { config } from './config/Constants'
 const api = express()
 api.use(express.json())
 
-const cors = require("cors");
+let cors = require("cors");
 api.use(cors({
   origin: config.API_URL,
 }))
