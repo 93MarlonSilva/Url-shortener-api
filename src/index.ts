@@ -1,10 +1,12 @@
 import express from 'express'
-import cors from 'cors'
 import { URLController } from './controller/URLController'
 import { MongoConnection } from './database/MongoConnection'
 
 const api = express()
 api.use(express.json())
+
+const cors = require("cors")
+api.use(cors())
 
 const database = new MongoConnection()
 database.connect()
