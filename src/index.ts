@@ -2,14 +2,15 @@ import express from 'express'
 import cors from 'cors'
 import { URLController } from './controller/URLController'
 import { MongoConnection } from './database/MongoConnection'
-
-const whiteList = "https://urlshortner-api.herokuapp.com";
+import { config } from './config/Constants'
 
 const api = express()
-  api.use(cors({
-    origin: whiteList,
-  })
-);
+api.use(express.json())
+
+const cors = require("cors");
+api.use(cors({
+  origin: config.API_URL,
+}))
 
 const database = new MongoConnection()
 database.connect()
