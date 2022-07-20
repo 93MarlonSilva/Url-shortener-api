@@ -9,7 +9,6 @@ export class URL extends Typegoose {
 
 	@prop({ required: true })
 	shortURL: string
-
 }
 
 export const URLModel = new URL().getModelForClass(URL)

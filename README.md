@@ -1,12 +1,19 @@
-# Url Shortener Dio
+# url-shortener-dio
 
-Delivery of the project challenge to build a URL shortener @Dio.
+Projeto criado junto da DIO para construção de um Encurtador de URL.
 
-##### In the project files directory you can use the commands below to install the dependencies and start the application.
+## Rodando o projeto
 
 - `npm install`
 - `npm run build`
 - `npm run dev`
 
-#### front end under development...
+Algumas informações sobre os vídeos:
 
+- Editor de Texto usado: VSCode
+  - Color Theme do editor: Material UI e Bluloco Dark
+- Programa para verificar as requests: Insomnia
+
+Informações pessoais:
+
+- Meu linkedin: https://www.linkedin.com/in/alexiapereira/

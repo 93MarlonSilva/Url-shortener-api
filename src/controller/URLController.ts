@@ -10,12 +10,11 @@ export class URLController {
 		if (url) {
 			response.json(url)
 			return
-		} 
-
+		}
 		const hash = shortId.generate()
 		const shortURL = `${config.API_URL}/${hash}`
 		const newURL = await URLModel.create({ hash, shortURL, originURL })
-		response.json(newURL);
+		response.json(newURL)
 	}
 
 	public async redirect(req: Request, response: Response): Promise<void> {
@@ -29,5 +28,4 @@ export class URLController {
 
 		response.status(400).json({ error: 'URL not found' })
 	}
-
 }
