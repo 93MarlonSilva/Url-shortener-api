@@ -12,6 +12,8 @@ Project Challenge @ Dio
 
 In testing phase the front end of this api here [Url-shortener-app](https://github.com/93MarlonSilva/Url-shortener-app.git)
 
+Api on https://urlshortner-api.herokuapp.com/
+
 
 
 
