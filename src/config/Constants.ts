@@ -1,5 +1,5 @@
 export const config = {
-	API_URL: 'http://localhost:5000',
+	API_URL: 'https://urlshortner-api.herokuapp.com/',
 	MONGO_CONNECTION:
-		'mongodb+srv://<user>:<password>@<database>.yptlq.mongodb.net/url-shortener-dio?retryWrites=true&w=majority',
+		'mongodb+srv://marlon:root@url-shortener-dio.uvkat.mongodb.net/?retryWrites=true&w=majority',
 }
