@@ -5,14 +5,14 @@ Delivery of the project challenge to build a URL shortener @Dio.
 
 #### Under front end url-shortener-app development 
 
-FrontEnd
+## FrontEnd
 
 ![capa](./image/capa.png)
 
 
-BackEnd
+## BackEnd
 
-## Running the project
+### Running the project
 
 - you can run `npm install` on the project file
 - `npm run build`
