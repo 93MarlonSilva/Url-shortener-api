@@ -1,19 +1,19 @@
-# url-shortener-dio
+# Url Shortener Dio
 
-Project created with DIO to build a URL Shortener.
-Project Challenge @ Dio
+Delivery of the project challenge to build a URL shortener @Dio.
 
-## Rodando o projeto
+
+#### Under front end url-shortener-app development 
+
+FrontEnd
+
+![capa](./image/capa.png)
+
+
+BackEnd
+
+## Running the project
 
 - you can run `npm install` on the project file
 - `npm run build`
 - To start server `npm run dev`
-
-
-In testing phase the front end of this api here [Url-shortener-app](https://github.com/93MarlonSilva/Url-shortener-app.git)
-
-Api on https://urlshortner-api.herokuapp.com/
-
-
-
-

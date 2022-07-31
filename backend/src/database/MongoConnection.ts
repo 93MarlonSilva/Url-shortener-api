@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 import { config } from '../config/Constants'
 export class MongoConnection {
-	public async connect(): Promise<void> {
+	public async connect(): Promise<void> { // Conexão com o banco
 		try {
 			await mongoose.connect(config.MONGO_CONNECTION, { useNewUrlParser: true, useUnifiedTopology: true })
 			console.log('Database connected')
